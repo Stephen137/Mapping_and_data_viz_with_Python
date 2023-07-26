@@ -4,3 +4,4 @@ streamlit-folium
 pandas
 geopandas
 matplotlib
+leafmap
