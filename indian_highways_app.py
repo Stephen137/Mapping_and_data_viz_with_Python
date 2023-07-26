@@ -7,10 +7,10 @@ import leafmap.foliumap as leafmap
 # Cosmetic config
 st.set_page_config(page_title='Dashboard', layout='wide')
 
-st.title('Highway Dashboard')
+st.title('Karnataka State, India - District Highways Dashboard')
 
 st.sidebar.title('About')
-st.sidebar.info('Explore the Highway Statistics')
+st.sidebar.info('Explore the Karnataka State Highways. NH=National Highway, SH=State Highway')
 
 # Concatenate file names
 data_url = 'https://storage.googleapis.com/spatialthoughts-public-data/python-dataviz/osm/'
